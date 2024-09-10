@@ -31,6 +31,8 @@ In which cases should a function be written?
 Which one do we need when we want to use function outputs as input?
 >> return()
 
+What does enumerate(students,1) 1 mean?
+>> 
 
 
 
