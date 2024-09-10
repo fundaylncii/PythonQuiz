@@ -1,0 +1,41 @@
+Which environment is used for isolated work environments?
+>> Virtual Environment
+
+Which one is used to upgrade the package?
+>> conda upgrade
+
+Which command is used to create the virtual environment on your computer?
+>> conda create
+
+What enables us to create a virtual environment and also perform operations related to packages (i.e. package management) such as downloading packages, updating packages, and deleting packages?
+>> conda
+
+Which data structure in Python is also known as a logical operator?
+>> Boolean
+
+Which of the following methods provides dimension information within a data set?
+>> len()
+
+Which method allows us to answer the question of whether the intersection of two sets in a set data structure is empty?
+>> isdisjoint()
+
+What is the function of the dir() method?
+>> Calls methods that can be applied to the list
+
+Which of the following correctly lists the properties of the tuple data structure?
+>> It is sequential, comprehensive, and unchangeable.
+
+In which cases should a function be written?
+>> To follow the DRY (Don’t repeat yourself) rule when there are repetitive tasks.
+
+Which one do we need when we want to use function outputs as input?
+>> return()
+
+
+
+
+
+
+
+
+
