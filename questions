@@ -1,38 +1,52 @@
-Which environment is used for isolated work environments?
+1)Which environment is used for isolated work environments?
 >> Virtual Environment
 
-Which one is used to upgrade the package?
+2)Which one is used to upgrade the package?
 >> conda upgrade
 
-Which command is used to create the virtual environment on your computer?
+3)Which command is used to create the virtual environment on your computer?
 >> conda create
 
-What enables us to create a virtual environment and also perform operations related to packages (i.e. package management) such as downloading packages, updating packages, and deleting packages?
+4)What enables us to create a virtual environment and also perform operations related to packages (i.e. package management) such as downloading packages, updating packages, and deleting packages?
 >> conda
 
-Which data structure in Python is also known as a logical operator?
+5)Which data structure in Python is also known as a logical operator?
 >> Boolean
 
-Which of the following methods provides dimension information within a data set?
+6)Which of the following methods provides dimension information within a data set?
 >> len()
 
-Which method allows us to answer the question of whether the intersection of two sets in a set data structure is empty?
+7)Which method allows us to answer the question of whether the intersection of two sets in a set data structure is empty?
 >> isdisjoint()
 
-What is the function of the dir() method?
+8)What is the function of the dir() method?
 >> Calls methods that can be applied to the list
 
-Which of the following correctly lists the properties of the tuple data structure?
+9)Which of the following correctly lists the properties of the tuple data structure?
 >> It is sequential, comprehensive, and unchangeable.
 
-In which cases should a function be written?
+10)In which cases should a function be written?
 >> To follow the DRY (Don’t repeat yourself) rule when there are repetitive tasks.
 
-Which one do we need when we want to use function outputs as input?
+11)Which one do we need when we want to use function outputs as input?
 >> return()
 
-What does enumerate(students,1) 1 mean?
->> 
+12)What does enumerate(students,1) 1 mean?
+>> initialize index number to 1
+
+13)list_store= [1,2,3,4]
+reduce(lambda a,b: a+b, list_store) ----- What is the output of the code snippet?
+>> 10
+
+14)sayi = 10
+
+if sayi % 2 == 0:
+               print("Sayı çifttir")
+               break
+What is the output of the code snippet?
+Gives error
+
+15)
 
 
 
