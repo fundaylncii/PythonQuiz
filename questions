@@ -46,9 +46,87 @@ if sayi % 2 == 0:
 What is the output of the code snippet?
 Gives error
 
-15)
+15) liste = [1,2,3,4,5]
+yeni_liste = [i for i in liste]
+print(yeni_liste)
+What is the output of the code snippet?
+>> [1,2,3,4,5]
+
+16) def tek_mi(x):
+              if x % 2 == 0:
+                            return False
+              if x % 2 != 0:
+                            return True
 
 
+tek_sayi = [i for i in range(1,11) if tek_mi(i)]
+What is the result of print(odd_number)?
+>> [1,3,5,7,9]
+
+
+17)
+eski_fiyat = {'süt': 1.02, 'kahve': 2.5, 'ekmek': 2.5}
+
+dolar_tl = 0.76
+yeni_fiyat = {item: value*dolar_tl for (item, value) in eski_fiyat.items()}
+print(yeni_fiyat)
+What is the result of the print operation?
+>> {'süt': 0.7752, 'kahve': 1.9, 'ekmek': 1.9}
+
+18)
+original_dict = {'ahmet': 38, 'mehmet': 48, 'ali': 57, 'veli': 33}
+
+dict2 = {k: v for (k, v) in original_dict.items() if v % 2 == 0}
+print(dict2)
+What is the result of the print operation?
+>> {'ahmet': 38, 'mehmet': 48}
+
+
+19) How does NumPy handle data storage differently than a list?
+>> It does not keep the type of each data separately, it keeps a single type and stores the data of that type and is faster.
+
+
+20) import numpy as np
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+print('1. boyuttaki 2.eleman: ', arr[0, 1])
+What is the output of the code?
+>> 1.boyuttaki 2. eleman : 2
+
+21) arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+What is the output of the code print(arr[-3:-1])?
+>> [5,6]
+
+22)
+import numpy as np
+array = np.array([1, 2, 3, 4, 5, 6, 7])
+
+filter_array = array % 2 == 0
+
+new_array = array[filter_array]
+
+print(new_array)
+What is the output of the code?
+>> [2,4,6]
+
+23)Which one should be written if you want to use a data set from the Seaborn library?
+>> Sns.load_dataset()
+
+24) import pandas as pd
+data = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+df = pd.DataFrame(data)
+subset = df.loc[0:1, ['A', 'B']]
+What output does the above code sequence target?
+>> Selects rows 0 and 1, columns 'A' and 'B'
+
+25)import pandas as pd
+data = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+df = pd.DataFrame(data)
+subset = df.iloc[0:2, [0, 1]]
+What is the output algorithm order of the above code?
+>> Selects the first two rows and the first two columns
+
+26)
 
 
 
