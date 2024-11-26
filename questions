@@ -126,7 +126,12 @@ subset = df.iloc[0:2, [0, 1]]
 What is the output algorithm order of the above code?
 >> Selects the first two rows and the first two columns
 
-26)
+26)Which piece of code do we need to run to see a chart I created?
+Plt.show()
+
+
+27)Which library to use for data visualization and different types of charts?
+Seaborn
 
 
 
